@@ -1,10 +1,18 @@
+<style lang="scss">
+	h1{
+		color: coral;
+		&:hover{
+			color: darkolivegreen;
+		}
+	}
+</style>
 <svelte:head>
 	<title>Sapper project template</title>
 </svelte:head>
 
 <h1 class="text-center text-2xl my-4">Great success!</h1>
 
-<div class="flex flex-col items-center mb-4">
+<div class="flex flex-col items-center mb-4 bg-blue-200">
 	<img alt='Sapper Logo' class="w-2/3 lg:w-1/3" src='sapper-logo.svg'>
 	<img alt='Tailwind Logo' class="w-2/3 lg:w-1/3" src='tailwind-logo.svg'>
 </div>

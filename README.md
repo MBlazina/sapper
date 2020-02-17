@@ -1,3 +1,14 @@
+# To start development:
+npm run dev
+npm run watch:tailwind
+
+# To build to node app
+npm run build && npm start
+
+# To export to static site
+npm run build
+npm run export
+
 # sapper-template working with tailwindcss
 
 The default [Sapper](https://github.com/sveltejs/sapper) template, available for Rollup and webpack.
